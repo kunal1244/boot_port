@@ -8,58 +8,125 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>Kunal Das | Aspiring Developer and Blogger </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/styles_h.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+	<title>Kunal Das | Aspiring Developer and Blogger </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <style>
-    body{
-        background-color:grey;
-    }
-    /* Make the image fully responsive */
-    .carousel-inner img {
-        width: 100%;
-        height: 715px;
-        
-    }
-    </style>
 </head>
 <body>
-      
-<div id="demo" class="carousel slide align-items-center" data-ride="carousel" data-interval="false" data-pause="false" data-keyboard="true" style="margin-top:-3.5%; height:715px">
+	<nav class="navbar navbar-dark navbar-expand-sm fixed-top" style="height:75px">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <font class="col-4" style="font-size: 50px;font-family: custom4; color:red">Kunal Das</font>
+            <div class="collapse navbar-collapse" id="Navbar">
+            
+                
+                <ul class="navbar-nav mr-auto" style="margin-left:45%">
+                    <li class="nav-item active"><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg" style="size:20px"></span> <font style="font-family: custom3;font-size: 20px">Home</font></a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span><font style="font-family: custom3;font-size: 20px"> About</font></a></li>
+                    <li class="nav-item"><a class="nav-link" href="home.html"><span class="fa fa-list fa-lg"></span><font style="font-family: custom3;font-size: 20px"> Projects</font></a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span><font style="font-family: custom3;font-size: 20px"> Writings</font></a></li>
+                </ul>  
+            </div>              
+        </div>
+    </nav> 
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Hey there, this is Kunal!</h1>
+                    <p>I am currently an undergraduate student in the Indian Institute of Technology, Kharagpur. I am an aspiring developer, who also loves to write. I also happen to be an avid sport lover, and I absolutely gush over tasteful music. Thanks for checking the site out!</p>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+<br><br>
 
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-  
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/body.jpg" alt="Los Angeles">
+
+	<div class="container">
+        
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                <h3>Data Analytics</h3>
+            </div>
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 align-self-center col-5"
+                            src="img/ass3.png" alt="Uthappizza">
+                    <div class="media-body">
+                        <h2 class="mt-0">Generic Plots</h2>
+                        <p class="d-none d-sm-block">Plots using matplotlib, pandas, numpy.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 col-md-3">
+                <h3>HTML Scripting</h3>
+            </div>
+            <div class="col col-sm col-md">
+                <h2>Kaufer</h2>
+                <p>A test online shopping site.</p>
+            </div>
+        </div>
+
+        <div  class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                <h3>Photoshop</h3>
+            </div>
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/alberto.png" alt="Alberto Somayya">
+                    <div class="media-body">
+                        <h2 class="mt-0">Progressive designs</h2>
+                        <h4>Executive Chef</h4>
+                        <p class="d-none d-sm-block">Designs ranging from posters to stylised icons and themes.
+                            </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </div>
-    <div class="carousel-item">
-      <img src="img/ass3.png" alt="Chicago">
-    </div>
-    <div class="carousel-item">
-      <img src="img/plot.png" alt="New York">
-    </div>
-  </div>
-  <br>
-  
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="contactus.html">Writings</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+           </div>
+           
+        </div>
+    </footer>
+ <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
