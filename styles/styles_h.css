@@ -27,7 +27,7 @@
 	color:#0f0f0f;
 }
 body{
-    padding:0px 0px 0px 0px;
+    padding:50px 0px 0px 0px;
     z-index:0;
 }
 
@@ -49,62 +49,4 @@ body{
 @font-face {
 	font-family: custom4;
 	src:url('../fonts/SUSANNA_.ttf');
-}
-.container {
-  margin-left: %;
-
-}
-
-
-.carousel-indicators {
-	bottom: 0;
-}
-.carousel-control.right,
-.carousel-control.left {
-	background-image: none;
-}
-.carousel-item {
-	min-height: 350px; 
-	height: 100%;
-	width:100%; 
-}
-
-
-.carousel-caption {
-    top: 10%;
-    bottom: auto;
-}
-.carousel-caption h3 {
-	padding: .5em;
-
-}
-.carousel .icon-container {
-	display: inline-block;
-	font-size: 25px;
-	line-height: 25px;
-	padding: 1em;
-	text-align: center;
-	border-radius: 50%;
-}
-.carousel-caption button {
-	border-color: None;
-	margin-top: 1em; 
-}
-
-/* Animation delays */
-
-h1 {
-  text-align: center;  
-  margin-bottom: 30px;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.p {
-  padding-top: 125px;
-  text-align: center;
-}
-
-.p a {
-  text-decoration: underline;
 }

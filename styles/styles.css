@@ -1,0 +1,148 @@
+.row-header{
+	margin: 0px auto;
+	padding: 0px auto;
+}
+
+.row-content{
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+
+.footer{
+	background-color: #D1C4E9;
+	margin:0px auto;
+	padding: 20px 0px 20px 0px;
+}
+.jumbotron{
+	padding:70px 30px 70px 30px;
+	margin: 0px auto;
+	background: #9575CD;
+	color: floralwhite;
+}
+.address{
+	font-size: 80%;
+	margin:0px;
+	color:#0f0f0f;
+}
+body{
+    padding:0px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: black;
+}
+@font-face {
+	font-family: custom1;
+	src:url('../fonts/Aspergit.otf');
+	}
+@font-face {
+	font-family: custom2;
+	src:url('../fonts/Simplifica.woff');
+}
+@font-face {
+	font-family: custom3;
+	src:url('../fonts/indiepimptbs.ttf');
+}
+@font-face {
+	font-family: custom4;
+	src:url('../fonts/SUSANNA_.ttf');
+}
+.container {
+  margin-left: %;
+
+}
+
+
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-item {
+	min-height: 350px; 
+	height: 100%;
+	width:100%; 
+}
+
+
+.carousel-caption {
+    top: 6%;
+    bottom: ;
+}
+.carousel-caption h3 {
+	padding: .5em;
+
+}
+.carousel .icon-container {
+	display: inline-block;
+	font-size: 25px;
+	line-height: 25px;
+	padding: 1em;
+	text-align: center;
+	border-radius: 50%;
+}
+.carousel-caption button {
+	
+	margin-top: 1em; 
+}
+.btn1{
+	background-color: transparent;
+	border-width: 0px;
+	border-color: yellow;
+}
+
+/* Green */
+.success {
+    border-color: black;
+    color: green;
+}
+
+.success:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.fa {
+	padding: 12px;
+	font-size: 20px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 2px 2px;
+	border-radius: 50%;
+	
+}
+
+.fa:hover {
+   	opacity: 0.7;
+}
+
+.fa-facebook {
+ 	background: #3B5998;
+  	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-google {
+ 	background: #dd4b39;
+	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+
+.fa-skype {
+	background: #00aff0;
+	color: white;
+}
+
